@@ -23,8 +23,7 @@ jobs:
           git config --global user.email 946736494@qq.com
           git config --global user.name Mlikiowa
           git add GithubHost.txt
-          git commit -m "GithubHost Updata" -a
-		
+          git commit -m "GithubHost Updata" -a		
     - name: Push changes
              uses: ad-m/github-push-action@master
              with:
