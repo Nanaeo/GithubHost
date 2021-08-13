@@ -1,6 +1,8 @@
 <?php
 //Host Table
 $host[] = 'raw.githubusercontent.com';
+$host[] = 'api.github.com';
+$host[] = 'github.githubassets.com';
 $host[] = 'avatars0.githubusercontent.com';
 $host[] = 'avatars1.githubusercontent.com';
 $host[] = 'avatars2.githubusercontent.com';
