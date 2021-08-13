@@ -37,8 +37,8 @@ foreach ($host as $name) {
     foreach ($ips as $tmp_ip) {
         $time[] = ping($tmp_ip);
     }
-    var_dump($ips);
-    var_dump($time);
+    //var_dump($ips);
+    //var_dump($time);
     $len = count($time);
     $min = $time[0];
     $i = 0;
@@ -51,4 +51,4 @@ foreach ($host as $name) {
     }
     $data = $data . $ips[$loc] . " " . $name . "\r\n";
 }
-echo $data;
+file_put_contents("GithubFile.txt",$data);
