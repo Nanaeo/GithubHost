@@ -17,4 +17,4 @@ foreach ($host as $name) {
     $loc = 0;  
     $data = $data . $ips[$loc] . " " . $name . "\r\n";
 }
-file_put_contents("GithubFile.txt",$data);
+file_put_contents("GithubHost.txt",$data);
