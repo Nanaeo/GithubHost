@@ -13,3 +13,6 @@
 ## 2.Root环境下
 使用Root Explorer管理器或ES文件浏览器装载/system可写状态
 找到/system/etc/hosts的文件，导入host。用Root Explore
+
+# 订阅式
+镜像地址: https://cdn.jsdelivr.net/gh/MliKiowa/GithubHost/GithubHost.txt
