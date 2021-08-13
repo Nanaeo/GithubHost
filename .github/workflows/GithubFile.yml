@@ -9,15 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-            uses: actions/checkout@v2
+      uses: actions/checkout@v2
     - name: Setup PHP only
-            uses: shivammathur/setup-php@v2
-            with:
-                 php-version: 8.0 
+      uses: shivammathur/setup-php@v2
+      with:
+           php-version: 8.0 
     - name: 
-            run: |
-                 php GithubHost.php
-                
+      run: |
+         php GithubHost.php              
     - name: commit
       run: |
           git config --global user.email 946736494@qq.com
@@ -25,6 +24,6 @@ jobs:
           git add GithubHost.txt
           git commit -m "GithubHost Updata" -a		
     - name: Push changes
-             uses: ad-m/github-push-action@master
-             with:
-                  github_token: ${{ secrets._TOKEN }}
+      uses: ad-m/github-push-action@master
+      with:
+          github_token: ${{ secrets._TOKEN }}
