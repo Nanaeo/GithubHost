@@ -16,7 +16,7 @@ jobs:
            php-version: 8.0 
     - name: 
       run: |
-         php GithubHost.php              
+         sudo php GithubHost.php              
     - name: commit
       run: |
           git config --global user.email 946736494@qq.com
