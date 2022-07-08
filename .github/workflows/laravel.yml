@@ -1,0 +1,30 @@
+name: Python GithubHosts 
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 21 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: Set Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.x' 
+    - name: Build file
+      run: python /py/GetHosts.py
+    - name: File commit
+      run: |
+          git config --global user.email nineto0@qq.com
+          git config --global user.name Mlikiowa
+          git add hosts.txt
+          git commit -m "New Hosts" -a		
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+          github_token: ${{ secrets._TOKEN }}
