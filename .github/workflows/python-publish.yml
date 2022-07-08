@@ -25,7 +25,7 @@ jobs:
       run: |
           git config --global user.email nineto0@qq.com
           git config --global user.name Mlikiowa
-          git add Hosts.txt
+          git add hosts.txt
           git commit -m "New Hosts" -a		
     - name: Push changes
       uses: ad-m/github-push-action@master
