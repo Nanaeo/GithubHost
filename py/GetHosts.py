@@ -5,7 +5,7 @@ import socket
 hosts = ''
 dpath = os.path.abspath(os.path.join(os.getcwd(), ".."))
 print("当前目录 "+dpath)
-rfile = open(dpath+"/other/domain.txt","r")
+rfile = open(dpath+"/GithubHost/other/domain.txt","r")
 domain = str(rfile.read(),'UTF-8').splitlines()
 rfile.close()
 for index in range(len(domain)):
@@ -16,6 +16,6 @@ for index in range(len(domain)):
       ip = "unknow"
       print("解析失败" + domain[index])
     hosts = hosts + ip + " " + domain[index]+"\r\n"
-wfile = open(dpath+"/hosts.txt",'w')
+wfile = open(dpath+"/GithubHost/hosts.txt",'w')
 wfile.write(hosts)
 wfile.close()
