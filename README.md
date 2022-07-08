@@ -25,7 +25,6 @@ https://github.com/x-falcon/Virtual-Hosts
 
 这样域名解析这一步是在开发机完成的，只要把开发机的 hosts 配置好就可以了。
 
-2.使用同步助手
 
 暂未完成
 # 订阅式
