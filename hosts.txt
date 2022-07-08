@@ -1,0 +1,16 @@
+140.82.112.5api.github.com
+185.199.110.133raw.githubusercontent.com
+140.82.112.21collector.githubapp.com
+185.199.109.133camo.githubusercontent.com
+185.199.109.154github.githubassets.com
+185.199.111.133avatars.githubusercontent.com
+185.199.108.133avatars0.githubusercontent.com
+185.199.108.133avatars1.githubusercontent.com
+185.199.108.133avatars2.githubusercontent.com
+185.199.108.133avatars3.githubusercontent.com
+185.199.108.133avatars4.githubusercontent.com
+185.199.108.133avatars5.githubusercontent.com
+185.199.111.133avatars6.githubusercontent.com
+185.199.108.133avatars7.githubusercontent.com
+185.199.108.133avatars8.githubusercontent.com
+140.82.114.3github.com
