@@ -2,7 +2,7 @@
 from urllib import request
 import socket
 hosts = ''
-rfile = open('../other/domain.txt','r')
+rfile = open("../other/domain.txt","r")
 domain = str(rfile.read(),'UTF-8').splitlines()
 rfile.close()
 for index in range(len(domain)):
@@ -13,6 +13,6 @@ for index in range(len(domain)):
       ip = "unknow"
       print("解析失败" + domain[index])
     hosts = hosts + ip + " " + domain[index]+"\r\n"
-wfile = open('../hosts.txt','w')
+wfile = open("../hosts.txt",'w')
 wfile.write(hosts)
 wfile.close()
