@@ -6,7 +6,8 @@ hosts = ''
 dpath = os.path.abspath(os.path.join(os.getcwd(), ".."))
 print("当前目录 "+dpath)
 rfile = open(dpath+"/GithubHost/other/domain.txt","r")
-domain = str(rfile.read(),'UTF-8').splitlines()
+domain = rfile.read().splitlines()
+print(domain)
 rfile.close()
 for index in range(len(domain)):
     print(domain[index])
