@@ -11,7 +11,7 @@ for index in range(len(domain)):
     except:
       ip = "unknow"
     print("解析失败" + domain[index])
-    hosts = hosts + ip +  domain[index]+"\r\n"
+    hosts = hosts + ip + " " + domain[index]+"\r\n"
 wfile = open('hosts.txt','w')
 wfile.write(hosts)
 wfile.close()
