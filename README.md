@@ -29,4 +29,4 @@ https://github.com/x-falcon/Virtual-Hosts
 
 暂未完成
 # 订阅式
-镜像地址: https://cdn.jsdelivr.net/gh/MliKiowa/GithubHost/GithubHost.txt
+镜像地址: https://cdn.jsdelivr.net/gh/MliKiowa/GithubHost/hosts.txt
