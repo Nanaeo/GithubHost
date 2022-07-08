@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 from urllib import request
+import os,sys
 import socket
 hosts = ''
-dpath = os.path.abspath(os.path.join(os.getcwd(), "..")
+dpath = os.path.abspath(os.path.join(os.getcwd(), ".."))
 print("当前目录 "+dpath)
 rfile = open(datuh+"/other/domain.txt","r")
 domain = str(rfile.read(),'UTF-8').splitlines()
