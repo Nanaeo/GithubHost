@@ -14,6 +14,6 @@ for index in range(len(domain)):
       ip = "unknow"
       print("解析失败" + domain[index])
     hosts = hosts + ip + " " + domain[index]+"\r\n"
-wfile = open('hosts.txt','w')
+wfile = open('../hosts.txt','w')
 wfile.write(hosts)
 wfile.close()
