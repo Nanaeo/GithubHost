@@ -2,7 +2,7 @@
 from urllib import request
 import socket
 hosts = ''
-rfile = open('/other/domain.txt','r')
+rfile = open('other/domain.txt','r')
 rfile.write(hosts)
 domain = str(rfile.read(),'UTF-8').splitlines()
 rfile.close()
