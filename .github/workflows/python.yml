@@ -17,7 +17,7 @@ jobs:
       with:
         python-version: '3.x' 
     - name: Build file
-      run: python /py/GetHosts.py
+      run: python py/GetHosts.py
     - name: File commit
       run: |
           git config --global user.email nineto0@qq.com
