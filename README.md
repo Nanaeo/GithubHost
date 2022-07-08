@@ -1,5 +1,6 @@
 # GithubHost
 因各种不可抗因素，Github图片和资源无法加载，可食用本项目进行解决。
+本项目采用多种语言实现 目前版本python php
 # 更新
 每天5点由GithubAction自动解析host生成
 # Windows食用
