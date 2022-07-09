@@ -1,18 +1,24 @@
 # -*- coding: utf-8 -*-
-import socket
-hosts = ''
+import socket,os
+from datetime import datetime, timedelta, timezone
+def get_now_date_str(format_string="%Y-%m-%d %H:%M:%S"):#"%Y-%m-%d %H:%M:%S"
+    utc_dt = datetime.utcnow().replace(tzinfo=timezone.utc)
+    bj_dt = utc_dt.astimezone(timezone(timedelta(hours=8)))
+    str_date = bj_dt.strftime(format_string)
+    return str_date
+hosts = []
 rfile = open("other/domain.txt","r")
 domain = rfile.read().splitlines()
-print(domain)
+hosts.append("# GithubHosts by https://github.com/MliKiowa/GithubHost/")
+hosts.append('# Last update at %s (Beijing Time)'%date_now)
 rfile.close()
-for index in range(len(domain)):
-    print(domain[index])
+for temp in domain:
     try:
-      ip = socket.gethostbyname(domain[index])
+      ip = socket.gethostbyname(temp)
     except:
       ip = "unknow"
-      print("解析失败" + domain[index])
-    hosts = hosts + ip + " " + domain[index]+"\r\n"
-wfile = open("/GithubHost/hosts.txt",'w')
-wfile.write(hosts)
+    hosts.append("%s %s"%(ip,temp))
+    data = "\r\n".join(hosts)
+wfile = open("hosts.txt",'w')
+wfile.write(data)
 wfile.close()
