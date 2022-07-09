@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import socket
 hosts = ''
-rfile = open("/GithubHost/other/domain.txt","r")
+rfile = open("other/domain.txt","r")
 domain = rfile.read().splitlines()
 print(domain)
 rfile.close()
