@@ -7,6 +7,7 @@ def get_now_date_str(format_string="%Y-%m-%d %H:%M:%S"):#"%Y-%m-%d %H:%M:%S"
     str_date = bj_dt.strftime(format_string)
     return str_date
 hosts = []
+date_now = get_now_date_str()
 rfile = open("other/domain.txt","r")
 domain = rfile.read().splitlines()
 hosts.append("# GithubHosts by https://github.com/MliKiowa/GithubHost/")
