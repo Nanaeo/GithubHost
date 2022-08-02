@@ -1,0 +1,22 @@
+{                                                         
+  "name": "GithubHost",                                      
+  "version": "1.0.0",                                     
+  "description": "go to *.github.com",                      
+  "main": "hosts.js",                                     
+  "scripts": {                                            
+    "generate": "node hosts.js" 
+  },   
+  "engines": {
+    "node": ">=0.12"
+  }, 
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/Mlikiowa/GithubHost.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mlikiowa/GithubHost/issues"
+  },
+  "homepage":"https://github.com/Mlikiowa/GithubHost"                                         
+  "author": "Mlikiowa <nineto0@163.com>",                                           
+  "license": "MIT" 
+}
