@@ -1,4 +1,6 @@
 # GithubHost
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FMliKiowa%2FGithubHost.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FMliKiowa%2FGithubHost?ref=badge_shield)
+
 因各种不可抗因素，Github图片和资源无法加载，可食用本项目进行解决。
 本项目采用多种语言实现 目前版本python php
 # 更新
@@ -30,3 +32,7 @@ https://github.com/x-falcon/Virtual-Hosts
 暂未完成
 # 订阅式
 镜像地址: https://cdn.jsdelivr.net/gh/MliKiowa/GithubHost/hosts.txt
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FMliKiowa%2FGithubHost.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FMliKiowa%2FGithubHost?ref=badge_large)
