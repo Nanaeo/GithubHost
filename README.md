@@ -10,9 +10,11 @@
 脚本还没写好
 # Android食用
 ## 1.无Root权限
+### 方案一
 可以使用Virtue Hosts
 https://github.com/x-falcon/Virtual-Hosts
-软件代理流量，导入host即可。
+### 方案二
+使用Ad way 软件代理流量，导入host即可。
 ## 2.Root环境下
 使用Root Explorer管理器或ES文件浏览器装载/system可写状态
 找到/system/etc/hosts的文件，导入host。
