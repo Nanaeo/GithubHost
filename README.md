@@ -33,6 +33,7 @@ This way, the domain name resolution step is completed on the development machin
 Not yet completed
 # Subscription style
 Mirror address: https://gcore.jsdelivr.net/gh/MliKiowa/GithubHost/hosts.txt 
+
 Mirror address2: https://fastly.jsdelivr.net/gh/MliKiowa/GithubHost/hosts.txt
 
 
